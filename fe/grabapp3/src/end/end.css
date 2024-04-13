@@ -1,0 +1,53 @@
+.end-all{
+    background-color: #00B14F;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    /* Sử dụng đơn vị vw để tự động điều chỉnh kích thước font chữ */
+    color: white;
+    margin-top: -3vw; /* Sử dụng vw cho phần margin-top */
+    padding-left: 10vw; /* Sử dụng vw cho padding */
+    padding-right: 10vw; /* Sử dụng vw cho padding */
+    padding-bottom: 2vw; 
+}
+.e0{
+    font-size:3vw;
+    padding-top: 2%;
+    font-weight: bold;
+}
+.e1{
+    display: flex;
+    
+}
+.e1_1{
+    display: flex;
+
+}
+#hang1{
+    padding-right: 20vh;
+}
+.e1_2{
+    display: flex;
+}
+.icon{
+    width: 30px;
+    height: 30px;
+    padding-right: 15px;
+}
+.e2{
+    display: flex;
+}
+#hang2_1{
+    padding-right: 180px;
+}
+
+#hang2_2{
+    padding-right: 175px;
+}
+.e4{
+    margin-top: 50px;
+}
+#appstore{
+  padding-right: 20px;
+}
+#ggplay{
+   height: 40px;
+}

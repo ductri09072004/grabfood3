@@ -1,0 +1,172 @@
+.all{
+    background-color:whitesmoke;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    padding-bottom: 10%;
+}
+
+.body{
+    display: flex;
+    flex-direction:row;
+    flex-wrap: wrap;
+    justify-content:center;
+}
+.osp{
+    background-color: white;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 2%; /* Sử dụng % cho phần padding */
+    width: 25%; /* Sử dụng % cho chiều rộng */
+     /* Đảm bảo một kích thước tối đa cho các mục */
+    height: auto; /* Sử dụng tỷ lệ khung hình */
+    display: flex;
+    margin: 1%; /* Sử dụng % cho margin */
+    cursor: pointer;
+}
+
+.img,img{
+    max-width: 100%; 
+    border-radius: 5px;
+    flex: 0.5;
+}
+.content{
+    flex: 1;
+    
+}
+.content p{
+    margin-top: 0;
+    margin-left: 5%;
+}
+#uudai,
+#suatuoi,
+#lytienca,
+#milktea {
+    font-size: 2vw; /* Sử dụng vw cho font-size */
+    font-weight: bold;
+    margin-left: 5%; /* Sử dụng % cho margin */
+    margin-top: 10vh; /* Sử dụng vh cho margin-top */
+}
+.desp{
+    font-size: 1.2vw; /* Sử dụng vw cho font-size */
+    font-weight: lighter;
+
+}
+#namesp{
+    font-size: 1.3vw;
+}
+.gia{
+    font-size: 1.5vw;
+    flex: 1;
+}
+.sale{
+    background-color:navajowhite;
+    color: chocolate;
+    font-size: 1.2vw;
+    display: inline;
+}
+.imgplus{
+  max-width: 15%;
+  flex: 1;
+}
+.all2{
+    display: flex;
+}
+
+
+
+
+
+
+
+.head{
+    background-color: white;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    z-index: 1000;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.head-top{
+    display: flex;
+}
+.locationall{
+    display: flex;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    align-items: center;
+    height: 5%; /* Sử dụng % cho chiều cao */
+    width: 25%; /* Sử dụng % cho chiều rộng */
+    padding-left: 1%; /* Sử dụng % cho padding */
+    margin-top: 1%; /* Sử dụng % cho margin-top */
+    margin-left: 5%; /* Sử dụng % cho margin-left */
+    font-size: 1.2vw; 
+}
+.imgloca{
+    width: 2vw; /* Sử dụng vw cho width */
+    height: 2vw; /* Sử dụng vw cho height */
+    margin-left: 1%; /* Sử dụng % cho margin-left */
+    margin-right: 1%;
+}
+
+
+.head-end{
+    display: flex;
+    margin-top: 0px;
+}
+.head-end a{
+    text-decoration: none;
+    color: black;
+    font-size: 1.5vw; /* Sử dụng vw cho font-size */
+    padding: 1%;
+}
+#end1{
+    margin-left: 10%;
+}
+
+.grab{
+    color: green;
+    font-size: 2.5vw; /* Sử dụng vw cho font-size */
+    font-weight: 500;
+    margin-left: 5%; /* Sử dụng % cho margin-left */
+    margin-top: 1%; /* Sử dụng % cho margin-top */
+    cursor: pointer;
+}
+
+.head-right{
+    display: flex;
+    margin-left: auto;
+}
+.bagcart{
+    width: 2vw; /* Sử dụng vw cho width */
+    height: 2vw; /* Sử dụng vw cho height */
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    align-items: center;
+    padding: 1%; /* Sử dụng % cho padding */
+    margin-top: 13%; 
+    margin-right: 5%;
+}
+.btnlogin{
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 1vw; /* Sử dụng vw cho font-size */
+    height: 50%; 
+    padding-left: 5%; /* Sử dụng % cho padding-left */
+    padding-right: 5%; /* Sử dụng % cho padding-right */
+    display: flex;
+    align-items: center;
+    margin-left: 0%; 
+    margin-top: 10%;
+}
+.btnlanguage {
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+    font-size: 1vw; /* Sử dụng vw cho font-size */
+    height: 50%; /* Sử dụng % cho chiều cao */
+    padding-left: 1%; /* Sử dụng % cho padding-left */
+    padding-right: 1%; /* Sử dụng % cho padding-right */
+    margin-left: 10%; /* Sử dụng % cho margin-left */
+    margin-right: 50%;
+}
+
