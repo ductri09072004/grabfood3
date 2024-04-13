@@ -1,6 +1,18 @@
+import React from 'react';
 import './Index.css'
+import { useNavigate } from 'react-router-dom';
+
 
 function  Home(){
+   const navigate = useNavigate();
+
+   function redirectToSearchPage() {
+       navigate('/Listch');
+   }
+
+   function redirectToSearchPage3() {
+       navigate('/App');
+   }
     return(
         <div className="home-all">
             <div className="img-head">
@@ -8,7 +20,7 @@ function  Home(){
             </div>
             <div className='loca'>
                  <p id='good'>Good Afternoon</p>
-                 <p id='hi'>Where should we deliver your food today?</p>
+                 <p id='hi'>Where should we deliver your food today</p>
                  <div className='loca1'>
                     <img id='lo1' src='https://img.icons8.com/color/48/marker.png'/>
                     <p>HO CHI MINH CITY STATUE</p>
@@ -176,13 +188,6 @@ function  Home(){
         </div>
     );
 }
-function redirectToSearchPage() {
-    // Chuyển hướng đến trang khác
-    window.location.href = '/Listch';
-}
-function redirectToSearchPage3() {
-   // Chuyển hướng đến trang khác
-   window.location.href = '/App';
-}
+
   
 export default Home;
