@@ -1,0 +1,45 @@
+.home-all{
+    position: relative;
+}
+.tox{
+    margin-top: 200px;
+    font-size: 24px;
+    font-weight: bold;
+    display: flex;
+    margin-left: 180px;
+}
+
+#searchBox{
+    margin-top: 100px;
+    margin-left: 180px;
+    width: 900px;
+    height: 35px;
+    background-color:whitesmoke;
+    border-radius: 15px;
+    border: 1px solid white; 
+}
+.re-head{
+    display: flex;
+    flex-direction:row;
+    flex-wrap: wrap;
+     margin-right: 20%;
+     margin-left: 17%;
+     margin-bottom: -60px;
+}
+#near1{
+    position: absolute;
+    margin-left: 75px;
+    margin-top: 55px;
+    z-index: 1;
+    color:white;
+    font-size: 14px;
+}
+#img-re-near{
+    width: 140px;
+    margin-top: 20px;
+    margin-left: 20px;
+    filter: brightness(50%);
+}
+.list-food{
+    cursor: pointer;
+}

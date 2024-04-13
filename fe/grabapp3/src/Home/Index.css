@@ -1,0 +1,226 @@
+.home-all{
+    padding-bottom: 10%;
+    position: relative;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.img-head {
+    width: 100vw; 
+    height: 50vh;
+    margin-top: 10%;
+}
+
+.img-head img {
+    width: 100%; 
+    height: 100%; 
+    object-fit: cover; 
+}
+.loca{
+    background-color: white;
+    width: 30%;
+    max-width: 260px;
+    height: auto;
+    border: 1px solid #ccc; 
+    border-radius: 5px;
+    margin-top: -25%;
+    margin-left: 15%;
+    padding-right: 2%;
+    padding-bottom: 2%;
+    position: absolute;
+}
+#good{
+    font-size: 1.6vw; /* Sử dụng phần trăm cho font-size để nó thích ứng với kích thước màn hình */
+    font-weight: bold;
+    padding-left: 2vw; /* Sử dụng phần trăm cho padding để nó thích ứng với kích thước màn hình */
+    padding-top: 2vw; 
+}
+#hi{
+    font-size: 2.2vw; /* Sử dụng phần trăm cho font-size để nó thích ứng với kích thước màn hình */
+    font-weight: bold;
+    padding-left: 2vw; /* Sử dụng phần trăm cho padding để nó thích ứng với kích thước màn hình */
+    margin-top: -1vw; 
+}
+.loca1{
+    display: flex;
+    border: 1px solid #ccc; 
+    border-radius: 5px;
+    align-items: center;
+    height: 5%;
+    width: 80%;
+    padding-left: 1.5vw; /* Sử dụng phần trăm cho padding để nó thích ứng với kích thước màn hình */
+    margin-top: -1%; /* Sử dụng phần trăm cho margin để nó thích ứng với kích thước màn hình */
+    margin-left: 5%;
+    ; /* Sử dụng phần trăm cho margin để nó thích ứng với kích thước màn hình */
+    font-size: 1vw;
+}
+#lo1{
+    width: 8%;
+    height: 8%;
+    margin: 2%;
+}
+#lo2{
+    width: 8%;
+    height: 8%;
+    margin: 2%;
+}
+.btnsearch{
+    background-color:#00B14F ;
+    font-size: 1.6vw; /* Sử dụng phần trăm cho font-size để nó thích ứng với kích thước màn hình */
+    color: white;
+    width: 90%; /* Sử dụng phần trăm cho width để nó thích ứng với kích thước màn hình */
+    height: 50%; /* Sử dụng phần trăm cho height để nó thích ứng với kích thước màn hình */
+    border-radius: 1vw; /* Sử dụng phần trăm cho border-radius để nó thích ứng với kích thước màn hình */
+    margin-left: 1vw; /* Sử dụng phần trăm cho margin để nó thích ứng với kích thước màn hình */
+    margin-top: 1vw; /* Sử dụng phần trăm cho margin để nó thích ứng với kích thước màn hình */
+    cursor: pointer;
+   
+}
+.btnsearch p{
+    margin-left: 35%;
+    font-weight: 500;
+}
+.list-food-all{
+    display: flex;
+    flex-direction:row;
+    flex-wrap: wrap;
+    justify-content:center;
+    margin-left: 15%;
+    margin-right: 15%;
+}
+.to{
+    margin-top: 10%;
+    font-size: 2.2vw;
+    font-weight: bold;
+    display: flex;
+    margin-left:18%;
+}
+.to_1{
+    margin-top: 3%; /* Sử dụng phần trăm cho margin để nó thích ứng với kích thước màn hình */
+    font-size: 2.2vw; /* Sử dụng phần trăm cho font-size để nó thích ứng với kích thước màn hình */
+    font-weight: bold;
+    display: flex;
+    margin-left: 18%;
+}
+#to1{
+  margin-right: 1%;
+}
+#to2{
+    color: #00B14F;
+}
+.list-food{
+    height: 30%; /* Sử dụng phần trăm cho height để nó thích ứng với kích thước màn hình */
+    width: 21%; /* Sử dụng phần trăm cho width để nó thích ứng với kích thước màn hình */
+    padding: 1%; 
+}
+#name-food{
+    font-weight: bold;
+    font-size: 1.4vw; /* Sử dụng phần trăm cho font-size để nó thích ứng với kích thước màn hình */
+    padding-left: 1%; /* Sử dụng phần trăm cho padding để nó thích ứng với kích thước màn hình */
+    padding-right: 1%;
+}
+#des-food{
+    font-weight: lighter;
+    font-size: 1.2vw; /* Sử dụng phần trăm cho font-size để nó thích ứng với kích thước màn hình */
+    padding-left: 1%;
+}
+.list-con{
+    display: flex;
+    font-size: 1.2vw;
+    font-weight: lighter;
+    margin-top: -1.5%;
+}
+#icon-list{
+    height: 1.5vw; /* Sử dụng phần trăm cho height để nó thích ứng với kích thước màn hình */
+    width: 1.5vw; /* Sử dụng phần trăm cho width để nó thích ứng với kích thước màn hình */
+    padding-right: 0.5%; /* Sử dụng phần trăm cho padding để nó thích ứng với kích thước màn hình */
+    padding-left: 0.5%; /* Sử dụng phần trăm cho padding để nó thích ứng với kích thước màn hình */
+    margin-top: 1.2vw;
+}
+.list-con1{
+    display: flex;
+    font-size: 1.2vw; /* Sử dụng phần trăm cho font-size để nó thích ứng với kích thước màn hình */
+    font-weight: lighter;
+     /* Sử dụng phần trăm cho width để nó thích ứng với kích thước màn hình */
+    padding-left: 3.8%; 
+}
+.seeall{
+    border: 1px solid #ccc; 
+    border-radius: 5px;
+    text-align: center;
+    width: 88%; /* Sử dụng phần trăm cho width để nó thích ứng với kích thước màn hình */
+    height: 3%; /* Sử dụng phần trăm cho height để nó thích ứng với kích thước màn hình */
+    line-height: 0.6; /* Sử dụng phần trăm cho line-height để nó thích ứng với kích thước màn hình */
+    font-size: 1.2vw; 
+}
+.seeall2{
+    border: 1px solid #ccc; 
+    border-radius: 5px;
+    text-align: center;
+    width: 88%; /* Sử dụng phần trăm cho width để nó thích ứng với kích thước màn hình */
+    height: 3%; /* Sử dụng phần trăm cho height để nó thích ứng với kích thước màn hình */
+    line-height: 0.6; /* Sử dụng phần trăm cho line-height để nó thích ứng với kích thước màn hình */
+    font-size: 1.2vw; /* Sử dụng phần trăm cho font-size để nó thích ứng với kích thước màn hình */
+    margin-left: 18%; /* Sử dụng phần trăm cho margin để nó thích ứng với kích thước màn hình */
+    margin-top: 4%; 
+}
+.list-re-all{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-left: 15%; /* Sử dụng phần trăm cho margin để nó thích ứng với kích thước màn hình */
+    margin-right: 15%;
+}
+.list-re img{
+   width: 70%;
+   height: auto;
+   object-fit: cover;
+}
+.list-re {
+    font-weight: bold;
+    height: 30%; /* Sử dụng phần trăm cho height để nó thích ứng với kích thước màn hình */
+    width: 21%; /* Sử dụng phần trăm cho width để nó thích ứng với kích thước màn hình */
+    padding: 1%; 
+    font-size: 1.6vw;
+}
+
+.end-home-all {
+    margin-left: 18%; /* Sử dụng phần trăm cho margin để nó thích ứng với kích thước màn hình */
+    margin-right: 18%; /* Sử dụng phần trăm cho margin để nó thích ứng với kích thước màn hình */
+}
+
+#why {
+    font-size: 2.4vw; /* Sử dụng phần trăm cho font-size để nó thích ứng với kích thước màn hình */
+    font-weight: bold;
+}
+
+#why1 {
+    font-size: 1.8vw; /* Sử dụng phần trăm cho font-size để nó thích ứng với kích thước màn hình */
+    font-weight: bold;
+}
+
+.content1 {
+    font-size: 1.2vw; /* Sử dụng phần trăm cho font-size để nó thích ứng với kích thước màn hình */
+}
+
+.intro-end-all {
+    display: flex;
+    margin-left: 15%; /* Sử dụng phần trăm cho margin để nó thích ứng với kích thước màn hình */
+    margin-right: 15%; /* Sử dụng phần trăm cho margin để nó thích ứng với kích thước màn hình */
+    margin-top: 4%; /* Sử dụng phần trăm cho margin để nó thích ứng với kích thước màn hình */
+}
+
+.intro-end1 {
+    text-align: center;
+    font-size: 1.4vw; /* Sử dụng phần trăm cho font-size để nó thích ứng với kích thước màn hình */
+    margin-right: 13%; /* Sử dụng phần trăm cho margin để nó thích ứng với kích thước màn hình */
+}
+
+.intro-end2 {
+    text-align: center;
+    font-size: 1.4vw; /* Sử dụng phần trăm cho font-size để nó thích ứng với kích thước màn hình */
+}
+
+#img-left {
+    width: 16%; /* Sử dụng phần trăm cho width để nó thích ứng với kích thước màn hình */
+    height: 16%; /* Sử dụng phần trăm cho height để nó thích ứng với kích thước màn hình */
+}
