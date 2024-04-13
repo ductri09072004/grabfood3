@@ -8,7 +8,7 @@ function Head(){
       <div className='locationall'>
       <p>Giao đến</p>
        <img className='imgloca' src="https://img.icons8.com/color/48/marker.png" alt="marker"/>
-       <p>HO CHI MINH STATUE - 108</p>
+       <p>HO CHI MINH STATUEs - 108</p>
       </div>
       <div className='head-right'>
       <img className='bagcart' onClick={redirectToSearchPage2} src="https://img.icons8.com/ios/50/shopping-bag--v1.png" />
