@@ -1,4 +1,4 @@
-
+import './head.css'
 
 function Head(){
     return(
@@ -10,10 +10,10 @@ function Head(){
        <img className='imgloca' src="https://img.icons8.com/color/48/marker.png" alt="marker"/>
        <p>HO CHI MINH STATUEs - 108</p>
       </div>
-      <div className='head-right'>
-      <img className='bagcart' onClick={redirectToSearchPage2} src="https://img.icons8.com/ios/50/shopping-bag--v1.png" />
-       <p className='btnlogin'>Đăng nhập/Đăng kí</p>
-       <p className='btnlanguage'>Vie </p>
+      <div className='head-rights'>
+      <img className='bagcarts' onClick={redirectToSearchPage2} src="https://img.icons8.com/ios/50/shopping-bag--v1.png" />
+       <p className='btnlogins'>Đăng nhập/Đăng kí</p>
+       <p className='btnlanguages'>Vie </p>
       </div>
       </div>
       

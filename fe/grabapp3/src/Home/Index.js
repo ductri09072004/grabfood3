@@ -171,7 +171,7 @@ function  Home(){
             </div>
             <div className='intro-end-all'>
                 <div className='intro-end1'>
-                    <img src='https://food.grab.com/static/page-home/bottom-food-options.svg'/>
+                    <img id='img-right' src='https://food.grab.com/static/page-home/bottom-food-options.svg'/>
                     <p>Curated restaurants</p>
                     <p>From small bites to big meals, we won't limit your appetite. Go ahead and order all you want.</p>
                 </div>
