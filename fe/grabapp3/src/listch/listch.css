@@ -2,42 +2,40 @@
     position: relative;
 }
 .tox{
-    margin-top: 200px;
-    font-size: 24px;
+    margin-top: 2%;
+    font-size: 1.8vw;
     font-weight: bold;
     display: flex;
-    margin-left: 180px;
+    margin-left: 18%;
 }
 
 #searchBox{
-    margin-top: 100px;
-    margin-left: 180px;
-    width: 900px;
-    height: 35px;
+    margin-top: 8%;
+    margin-bottom: 3%;
+    margin-left: 18%;
+    width:63%;
+    padding: 1%;
+    height: 10%;
+    font-size: 1vw;
     background-color:whitesmoke;
-    border-radius: 15px;
+    border-radius: 5px;
     border: 1px solid white; 
 }
 .re-head{
     display: flex;
-    flex-direction:row;
-    flex-wrap: wrap;
-     margin-right: 20%;
-     margin-left: 17%;
-     margin-bottom: -60px;
+    margin-left:18%;
+    margin-right: 16%;
 }
 #near1{
     position: absolute;
-    margin-left: 75px;
-    margin-top: 55px;
     z-index: 1;
     color:white;
-    font-size: 14px;
+    font-size: 1.2vw;
+    margin-top: 3%;
+    margin-left: 4.5%;
 }
 #img-re-near{
-    width: 140px;
-    margin-top: 20px;
-    margin-left: 20px;
+    width:80%;
     filter: brightness(50%);
 }
 .list-food{

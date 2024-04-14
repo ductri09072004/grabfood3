@@ -23,14 +23,11 @@ function  Listch(){
                 <p id='near1'>Gần tôi</p>
                 <img id='img-re-near' src='https://food.grab.com/static/images/placeholder-restaurant-2by1.jpg'/>
               </div>
-              <div className='re-head-con'>
-                <p id='near1'>Gần tôi</p>
-                <img id='img-re-near' src='https://food.grab.com/static/images/placeholder-restaurant-2by1.jpg'/>
-              </div>
+              
                
                
             </div>
-            <div className='to'>
+            <div className='tox'>
             <p id='to1'>Món ngon gần bạn</p>
             </div>
             <div className='list-food-all'>
