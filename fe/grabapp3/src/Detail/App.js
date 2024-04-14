@@ -1,6 +1,12 @@
 import './app.css'
+import { useNavigate } from 'react-router-dom';
 
 function App() {
+  const navigate = useNavigate();
+
+   function redirectToSearchPage2() {
+       navigate('/Checkout');
+   }
   return (
    <div className='all'>
      <div className='head-end'>
@@ -292,7 +298,5 @@ function App() {
      
   );
 }
-function redirectToSearchPage2() {
-  window.location.href = '/Checkout';
-}
+
 export default App;
