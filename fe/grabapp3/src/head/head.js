@@ -1,6 +1,16 @@
 import './head.css'
+import { useNavigate } from 'react-router-dom';
 
 function Head(){
+    const navigate = useNavigate();
+
+    function redirectToSearchPage() {
+        navigate('/');
+    }
+ 
+    function redirectToSearchPage2() {
+        navigate('/Checkout');
+    }
     return(
         <div className='head'>
       <div className='head-top'>

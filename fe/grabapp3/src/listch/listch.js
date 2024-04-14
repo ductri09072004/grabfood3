@@ -1,6 +1,12 @@
 import './listch.css'
+import { useNavigate } from 'react-router-dom';
 
 function  Listch(){
+  const navigate = useNavigate();
+  function redirectToSearchPage() {
+    navigate('/App');
+}
+
     return(
         <div className="home-all">
             <div>
@@ -347,9 +353,6 @@ function  Listch(){
         </div>
     );
 }
-function redirectToSearchPage() {
-    // Chuyển hướng đến trang khác
-    window.location.href = '/App';
-}
+
   
 export default Listch;
