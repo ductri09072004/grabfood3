@@ -1,44 +1,48 @@
 .check-all {
-    padding-top: 10vh; /* Sử dụng vh cho padding-top */
-    padding-bottom: 10vh; /* Sử dụng vh cho padding-bottom */
+    padding-top: 12%; /* Sử dụng vh cho padding-top */
+    padding-bottom: 5%; /* Sử dụng vh cho padding-bottom */
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
+.top{
+   
+}
 #top1_1{
-    font-size: 2vw; /* Sử dụng vw cho font-size */
+    font-size: 2.6vw; /* Sử dụng vw cho font-size */
     font-weight: bold;
-    margin-left: 28%;
+    margin-left: 20%;
+    margin-top: 1%;
+
 }
 #top1_2{
     font-size: 1.3vw; /* Sử dụng vw cho font-size */
     font-weight: bold;
-    margin-left: 28%;
+    margin-left: 20%;
+    margin-top: -2%;
 }
 
 .final-all{
     background-color: whitesmoke;
-    padding-top: 5vh;
-    padding-bottom: 5vh;
+    padding-top: 2%;
+    padding-bottom: 2%;
 }
 .final2{
     background-color: white;
-    margin-left: 20vw; /* Sử dụng vw cho margin-left */
-    margin-right: 20vw; /* Sử dụng vw cho margin-right */
-    padding-bottom: 3vh;
-    padding: 2vh;
+    margin-left: 20%;
+    margin-right: 20%;
+    padding: 2%;
 }
 .final3{
     background-color: white;
     margin-left: 20vw; /* Sử dụng vw cho margin-left */
     margin-right: 20vw; /* Sử dụng vw cho margin-right */
-    padding-bottom: 3vh; /* Sử dụng vh cho padding-bottom */
-    padding-left: 3vw; /* Sử dụng vw cho padding-left */
-    padding-right: 3vw; /* Sử dụng vw cho padding-right */
+    padding: 2%; /* Sử dụng vh cho padding-bottom */
     margin-top: 3vh;
 }
 #giao{
     font-weight: bold;
     font-size: 1.8vw; /* Sử dụng vw cho font-size */
-    padding: 3vh;
+    text-align: center;
+    
 }
 #delivery {
     font-weight: lighter;
@@ -89,14 +93,14 @@
     color: darkcyan;
     font-size: 2vw; /* Sử dụng vw cho font-size */
     padding-right: 1.2vw; /* Sử dụng vw cho padding-right */
-    margin-top: -0.3vh; /* Sử dụng vh cho margin-top */
+    margin-top: -0.1vh; /* Sử dụng vh cho margin-top */
 }
 
 #plus {
     color: darkcyan;
     font-size: 2vw; /* Sử dụng vw cho font-size */
     padding-left: 1vw; /* Sử dụng vw cho padding-left */
-    margin-top: 1.2vh; /* Sử dụng vh cho margin-top */
+    margin-top: 15%; /* Sử dụng vh cho margin-top */
 }
 
 #num {
@@ -142,46 +146,42 @@
     background-color: white;
     margin-left: 20vw; /* Sử dụng vw cho margin-left */
     margin-right: 20vw; /* Sử dụng vw cho margin-right */
-    padding-bottom: 3vh; /* Sử dụng vh cho padding-bottom */
-    padding-left: 3vw; /* Sử dụng vw cho padding-left */
-    padding-right: 3vw; /* Sử dụng vw cho padding-right */
+    padding: 2%;
     margin-top: 3vh;
  }
  .final5{
     background-color: white;
     margin-left: 20vw; /* Sử dụng vw cho margin-left */
     margin-right: 20vw; /* Sử dụng vw cho margin-right */
-    padding-bottom: 4vh; /* Sử dụng vh cho padding-bottom */
-    padding-left: 3vw; /* Sử dụng vw cho padding-left */
-    padding-right: 3vw; /* Sử dụng vw cho padding-right */
+    padding: 2%; /* Sử dụng vw cho padding-right */
     margin-top: 3vh;
     
  }
  #cash{
     font-weight: lighter;
     margin-left: 2%;
-    
+    font-size: 1.6vw;
  }
  #ew{
     font-size: 1.2vw;
- }
- .pt_cash{
-    width: 20%; /* Ví dụ: Định rõ kích thước của phần tử cha */
-    display: flex;
-    justify-content: center; /* Đảm bảo hình ảnh được căn giữa theo chiều ngang */
-    align-items: center;
-    border: 1px solid #ccc;
-    border-radius: 5px;
+    flex: 6;
     margin-left: 2%;
  }
+ .pt_cash{
+    display: flex;
+    border: 1px solid #ccc;
+    width: 50%;
+    border-radius: 5px;
+    margin-left: 2%;
+    align-items: center;
+ }
  #img_cash{
-    width: 12vh;
-    height: auto;
+    flex: 1;
  }
  .final5_1{
     display: flex;
-    margin-top: -2vh;
-    height: 8vh;
+    
+    height: 5%;
  }
 #cv{
     background-color:gray ;
@@ -196,9 +196,10 @@
 }
 #promotion{
     font-size: 1.2vw;
-    margin-left: 3%;
+    margin-left: 15%;
     width: 60%;
     border-radius: 5px;
+    border: 1px solid #ccc;
 }
 .bottom{
     display: flex;

@@ -11,7 +11,7 @@ function  Home(){
    }
 
    function redirectToSearchPage3() {
-       navigate('/App');
+       navigate('/Listch');
    }
     return(
         <div className="home-all">
